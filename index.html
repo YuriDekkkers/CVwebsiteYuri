@@ -11,11 +11,17 @@
                 <img src="img/DiscordIconSilent.png" class="logoImg">
             </div>
             <div class="navigationBar">
-                <div class="timeLine">
-                    <a href="#1"> <span class="dot"><span class="dotInner"></span></span> </a>
-                    <a href="#2"> <span class="dot"><span class="dotInner"></span></span> </a>
-                    <a href="#3"> <span class="dot"><span class="dotInner"></span></span> </a>
-                    <a href="#4"> <span class="dot"><span class="dotInner"></span></span> </a>
+                <div class="timeLine" id="container">
+                    <div class="scrollerDot" id="customScroll">
+
+                    </div>
+
+                    <a href="#1"> <span class="dot"><span class="dotInner"> <div class="navigationTextBox"><p class="navText" id="nav1">HOME</p></div> </span></span> </a>
+                    <a href="#2"> <span class="dot"><span class="dotInner"> <div class="navigationTextBox"><p class="navText" id="nav2">ABOUT</p></div> </span></span> </a>
+                    <a href="#3"> <span class="dot"><span class="dotInner"> <div class="navigationTextBox"><p class="navText" id="nav3">EXPERIENCE</p></div> </span></span> </a>
+                    <a href="#4"> <span class="dot"><span class="dotInner"> <div class="navigationTextBox"><p class="navText" id="nav4">WORK</p></div> </span></span> </a>
+                    <a href="#5"> <span class="dot"><span class="dotInner"> <div class="navigationTextBox"><p class="navText" id="nav5">SKILLS</p></div> </span></span> </a>
+                    <a href="#6"> <span class="dot"><span class="dotInner"> <div class="navigationTextBox"><p class="navText" id="nav6">CONTACT</p></div> </span></span> </a>
                 </div>
             </div>
         </divs>
@@ -32,11 +38,16 @@
 
             <div class="contentBlock" id="2">
                 <div class="aboutMe">
-                    <div class="textFieldAbout">
-                        <div class="aboutTitle">
-                            <h2 class="aboutText">about me yo, i do stuff.</h2>
-                        </div>
-                    </div>
+                   <div class="textFieldAbout">
+                       <h1 class="aboutTitle">
+                           Wie ben ik?
+                       </h1>
+                       <div class="aboutText">
+                           <p>
+                               Hallo! Mijn naam is Yuri. Ik ben een MBO-student Software Development op zoek naar mijn afstudeerstage. Ik heb een passie voor web  en gamedevelopment. Ik vertaal graag naar inhoud, dynamiek en beweging. Ik ben een positieve, leergierige en flexibele developer in oplaiding die graag denkt in oplossingen.
+                           </p>
+                       </div>
+                   </div>
                 </div>
             </div>
 
@@ -57,8 +68,29 @@
             </div>
 
             <div class="contentBlock" id="4">
+                <div class="work">
+                    <div class="workSub">
+                        project 1
+                    </div>
+
+                    <div class="workSub">
+                        project 2
+                    </div>
+
+                    <div class="workSub">
+                        project 3
+                    </div>
+                </div>
+            </div>
+
+            <div class="contentBlock" id="5">
+                SKILLS
+            </div>
+
+            <div class="contentBlock" id="6">
                 CONTACT
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
